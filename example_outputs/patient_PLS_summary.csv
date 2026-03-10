@@ -1,0 +1,13 @@
+Patient_ID,Total_Significant_Changes,Total_Gene_Pairs_Tested,Overall_Percentage_Changed,response_info,TRAV_TRBV_significant,TRAV_TRBV_tested,TRAV_TRBV_percentage,TRAJ_TRBJ_significant,TRAJ_TRBJ_tested,TRAJ_TRBJ_percentage
+UPN24,20,2823,0.7084661707403471,"{'pre': 'Pre', 'posttreatment': '3M_CR', 'cmv_status': 'Positive', '3M_response': 'CR', '6M_response': 'CR'}",11,2160,0.5092592592592593,9,663,1.3574660633484164
+UPN10,16,2823,0.5667729365922777,"{'pre': 'Pre', 'posttreatment': '3M_CR', 'cmv_status': 'Positive', '3M_response': 'CR', '6M_response': 'CR'}",11,2160,0.5092592592592593,5,663,0.7541478129713424
+UPN19,40,2823,1.4169323414806942,"{'pre': 'Pre', 'posttreatment': '3M_PR', 'cmv_status': 'Negative', '3M_response': 'PR', '6M_response': 'PR'}",28,2160,1.2962962962962963,12,663,1.809954751131222
+UPN18,5,2823,0.17711654268508678,"{'pre': 'Pre', 'posttreatment': '3M_PR', 'cmv_status': 'Negative', '3M_response': 'PR', '6M_response': 'Relapsed'}",3,2160,0.1388888888888889,2,663,0.301659125188537
+UPN4,98,2823,3.4714842366277012,"{'pre': 'Pre', 'posttreatment': '3M_PR', 'cmv_status': 'Positive', '3M_response': 'PR', '6M_response': 'Relapsed'}",55,2160,2.5462962962962963,43,663,6.485671191553545
+UPN17,285,2823,10.095642933049948,"{'pre': 'Pre', 'posttreatment': '6M_NR', 'cmv_status': 'Positive', '3M_response': 'NR', '6M_response': 'NR, off'}",172,2160,7.962962962962964,113,663,17.043740573152338
+UPN1,29,2823,1.0272759475735034,"{'pre': 'Pre', 'posttreatment': '3M_CR', 'cmv_status': 'Positive', '3M_response': 'CR', '6M_response': 'CR'}",21,2160,0.9722222222222222,8,663,1.206636500754148
+UPN12,15,2823,0.5313496280552604,"{'pre': 'Pre', 'posttreatment': '3M_CR', 'cmv_status': 'Negative', '3M_response': 'CR', '6M_response': 'CR'}",11,2160,0.5092592592592593,4,663,0.603318250377074
+UPN8,65,2823,2.302515054906128,"{'pre': 'Pre', 'posttreatment': '6M_CR', 'cmv_status': 'Positive', '3M_response': 'CR', '6M_response': 'CR'}",38,2160,1.7592592592592593,27,663,4.072398190045249
+UPN13,42,2823,1.487778958554729,"{'pre': 'Pre', 'posttreatment': '6M_PR', 'cmv_status': 'Negative', '3M_response': 'PR', '6M_response': 'PR'}",21,2160,0.9722222222222222,21,663,3.167420814479638
+UPN14,54,2823,1.9128586609989375,"{'pre': 'Pre', 'posttreatment': '6M_PR', 'cmv_status': 'Negative', '3M_response': 'NR', '6M_response': 'PR'}",30,2160,1.3888888888888888,24,663,3.619909502262444
+UPN15,298,2823,10.556145944031172,"{'pre': 'Pre', 'posttreatment': '6M_NR', 'cmv_status': 'Positive', '3M_response': 'NR', '6M_response': 'NR'}",167,2160,7.731481481481481,131,663,19.75867269984917
