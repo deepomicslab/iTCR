@@ -61,9 +61,12 @@ Each DataFrame must contain the following columns:
 | `cdr3A` | CDR3 alpha amino acid sequence | CAVRDSSYKLIF |
 | `cdr3B` | CDR3 beta amino acid sequence | CASSLAPGATNEKLFF |
 | `(customized name)`| Frequency/probability of the TCR for down-sampling | clonotype.freq |
+</details>
 
-### Configuration File (config.json)
-Users can customize which features to analyze by providing a configuration file (please visit ```iTCR/config.py```). This allows flexible control over the entropy and mutual information calculations performed by iTCR.
+<details open>
+<summary><b>Involved feature pairs</b></summary>
+
+Users can customize which features to analyze by revising a configuration file (please visit iTCR/config.py). This allows flexible control.
 
 #### 📁 Locating the Configuration File
 
@@ -132,6 +135,8 @@ If `config.py` is left unmodified, iTCR uses the following default settings:
   - Used when `--analysis_type` includes `mcr`
 </details>
 
+</details>
+
 <details open>
 <summary><b>Command Line Interface Overview</b></summary>
 <pre><code class="language-bash"># General usage
@@ -149,7 +154,7 @@ entropy-display       - Display entropy results
 </details>
 
 <details open>
-<summary><b> Analysis Modules </b></summary>
+<summary><b> Start analysis! </b></summary>
 
 ### 1. Manifold Coverage Ratio (MCR) Analysis
 <details> <summary><b>Analysis usage</b></summary>
