@@ -65,7 +65,29 @@ Each DataFrame must contain the following columns:
 ### Configuration File (config.json)
 Users can customize which features to analyze by providing a configuration file (please visit ```iTCR/config.py```). This allows flexible control over the entropy and mutual information calculations performed by iTCR.
 
-#### Configuration File (config.py)
+#### 📁 Locating the Configuration File
+
+Since `config.py` is bundled inside the installed package, you need to find its path before editing it.
+
+**Option 1 — Using Python (recommended):**
+```python
+import iTCR
+import os
+config_path = os.path.join(os.path.dirname(iTCR.__file__), "config.py")
+print(config_path)
+```
+
+**Option 2 — Using the command line:**
+```bash
+python -c "import iTCR, os; print(os.path.join(os.path.dirname(iTCR.__file__), 'config.py'))"
+```
+
+Once you have the path, open the file with any text editor (e.g., `nano`, `vim`, VS Code, or Notepad) and modify the settings as needed.
+
+> ⚠️ **Note:** Editing `config.py` directly modifies the package-level defaults. If you reinstall or upgrade iTCR, your changes may be overwritten. Consider keeping a backup of your custom configuration.
+
+#### 🛠️ Configuration Stucture
+The configuration file (`config.py`) defines three feature lists that control which analyses are performed:
 ``` python
 {
     "SINGLE_FEATURES": ["feature1", "feature2", ...],
@@ -73,8 +95,8 @@ Users can customize which features to analyze by providing a configuration file 
     "CROSS_FEATURES": [["feature1", "feature2"], ...]
 }
 ```
-#### Default Configuration
-If no configuration file is provided, iTCR uses the following default settings:
+#### 🔧 Default Configuration
+If `config.py` is left unmodified, iTCR uses the following default settings:
 ``` python
 {
     "SINGLE_FEATURES": [
