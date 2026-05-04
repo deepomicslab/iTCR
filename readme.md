@@ -32,7 +32,8 @@ pandas >= 1.5.0
 matplotlib >= 3.6.3
 seaborn >= 0.11.2
 scipy >= 1.10.1
-tidytcells 
+tidytcells (pip3 install tidytcells)
+ndd (pip3 install -U ndd)
 ```
 ## Usage
 <details open>
